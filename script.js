@@ -35,4 +35,7 @@ $(document).ready(function() {
     $("article a:first").remove();
     $("article p:last").after(
         "<a href='#top'>Back to top</a>");
+
+
+$("h2").css("color","pink")
 })
